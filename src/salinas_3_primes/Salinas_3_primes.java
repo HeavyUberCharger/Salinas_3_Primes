@@ -39,7 +39,7 @@ public class Salinas_3_primes {
     static boolean isPrime(int number){
         //boolean prime = true;
         int divisors = 0;
-        for(int i =2; i < number/2; i++){
+        for(int i =2; i <  number; i++){
            if(number % i == 0){
               divisors += 1;
                //prime = false;
